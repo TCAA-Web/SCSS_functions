@@ -1,0 +1,40 @@
+@import './mixin.scss';
+@import './globals.scss';
+
+
+// Function to get a random color
+// Creates three color values between 0-255 and returns an RGB value at the end
+@function getRandomColor() {
+    $red: random(255);
+    $green: random(255);
+    $blue: random(255);
+    $color: rgb($red, $green, $blue);
+    @return $color;
+}
+
+.rngColor{
+    width: 20px;
+    height: 10vh;
+    display: inline-block;
+}
+
+
+// For loop that iterates through all .rngColor classes
+@for $i from 1 through 50 {
+    .rngColor:nth-child(#{$i}){
+        background-color: getRandomColor()
+    }
+}
+
+// 
+.navbarLayout{
+    ul {
+        @include gridLayout(8, 2px);
+        li{
+            @include reset();
+            margin: $margin-small;
+        }
+    }
+    background-color: getRandomColor();
+    //color: white;
+}

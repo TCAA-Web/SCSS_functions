@@ -1,0 +1,221 @@
+.rngColor {
+  width: 20px;
+  height: 10vh;
+  display: inline-block;
+}
+
+.rngColor:nth-child(1) {
+  background-color: rgb(7, 57, 157);
+}
+
+.rngColor:nth-child(2) {
+  background-color: rgb(218, 48, 34);
+}
+
+.rngColor:nth-child(3) {
+  background-color: rgb(150, 101, 54);
+}
+
+.rngColor:nth-child(4) {
+  background-color: rgb(246, 16, 42);
+}
+
+.rngColor:nth-child(5) {
+  background-color: rgb(69, 138, 251);
+}
+
+.rngColor:nth-child(6) {
+  background-color: rgb(2, 152, 139);
+}
+
+.rngColor:nth-child(7) {
+  background-color: rgb(185, 255, 188);
+}
+
+.rngColor:nth-child(8) {
+  background-color: rgb(50, 230, 2);
+}
+
+.rngColor:nth-child(9) {
+  background-color: rgb(218, 23, 171);
+}
+
+.rngColor:nth-child(10) {
+  background-color: rgb(238, 23, 137);
+}
+
+.rngColor:nth-child(11) {
+  background-color: rgb(173, 122, 171);
+}
+
+.rngColor:nth-child(12) {
+  background-color: rgb(237, 219, 125);
+}
+
+.rngColor:nth-child(13) {
+  background-color: rgb(143, 34, 251);
+}
+
+.rngColor:nth-child(14) {
+  background-color: rgb(2, 44, 93);
+}
+
+.rngColor:nth-child(15) {
+  background-color: rgb(64, 179, 233);
+}
+
+.rngColor:nth-child(16) {
+  background-color: rgb(12, 63, 148);
+}
+
+.rngColor:nth-child(17) {
+  background-color: rgb(160, 104, 212);
+}
+
+.rngColor:nth-child(18) {
+  background-color: rgb(76, 61, 143);
+}
+
+.rngColor:nth-child(19) {
+  background-color: rgb(26, 101, 207);
+}
+
+.rngColor:nth-child(20) {
+  background-color: rgb(49, 43, 99);
+}
+
+.rngColor:nth-child(21) {
+  background-color: rgb(15, 215, 212);
+}
+
+.rngColor:nth-child(22) {
+  background-color: rgb(115, 18, 136);
+}
+
+.rngColor:nth-child(23) {
+  background-color: rgb(139, 77, 85);
+}
+
+.rngColor:nth-child(24) {
+  background-color: rgb(162, 250, 136);
+}
+
+.rngColor:nth-child(25) {
+  background-color: rgb(154, 198, 168);
+}
+
+.rngColor:nth-child(26) {
+  background-color: rgb(152, 134, 59);
+}
+
+.rngColor:nth-child(27) {
+  background-color: rgb(161, 238, 53);
+}
+
+.rngColor:nth-child(28) {
+  background-color: rgb(251, 77, 56);
+}
+
+.rngColor:nth-child(29) {
+  background-color: rgb(109, 210, 195);
+}
+
+.rngColor:nth-child(30) {
+  background-color: rgb(102, 253, 26);
+}
+
+.rngColor:nth-child(31) {
+  background-color: rgb(110, 47, 223);
+}
+
+.rngColor:nth-child(32) {
+  background-color: rgb(130, 114, 243);
+}
+
+.rngColor:nth-child(33) {
+  background-color: rgb(92, 211, 143);
+}
+
+.rngColor:nth-child(34) {
+  background-color: rgb(162, 63, 158);
+}
+
+.rngColor:nth-child(35) {
+  background-color: rgb(12, 84, 100);
+}
+
+.rngColor:nth-child(36) {
+  background-color: rgb(137, 90, 73);
+}
+
+.rngColor:nth-child(37) {
+  background-color: rgb(130, 62, 113);
+}
+
+.rngColor:nth-child(38) {
+  background-color: rgb(61, 202, 140);
+}
+
+.rngColor:nth-child(39) {
+  background-color: rgb(116, 118, 106);
+}
+
+.rngColor:nth-child(40) {
+  background-color: rgb(82, 193, 243);
+}
+
+.rngColor:nth-child(41) {
+  background-color: rgb(181, 148, 104);
+}
+
+.rngColor:nth-child(42) {
+  background-color: rgb(42, 4, 130);
+}
+
+.rngColor:nth-child(43) {
+  background-color: rgb(216, 156, 133);
+}
+
+.rngColor:nth-child(44) {
+  background-color: rgb(168, 141, 58);
+}
+
+.rngColor:nth-child(45) {
+  background-color: rgb(16, 101, 245);
+}
+
+.rngColor:nth-child(46) {
+  background-color: rgb(57, 191, 102);
+}
+
+.rngColor:nth-child(47) {
+  background-color: rgb(166, 85, 232);
+}
+
+.rngColor:nth-child(48) {
+  background-color: rgb(176, 210, 96);
+}
+
+.rngColor:nth-child(49) {
+  background-color: rgb(25, 2, 105);
+}
+
+.rngColor:nth-child(50) {
+  background-color: rgb(181, 216, 154);
+}
+
+.navbarLayout {
+  background-color: rgb(152, 80, 188);
+}
+.navbarLayout ul {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+.navbarLayout ul li {
+  margin: 0;
+  padding: 0;
+  margin: 8px;
+}/*# sourceMappingURL=mainStyle.css.map */
