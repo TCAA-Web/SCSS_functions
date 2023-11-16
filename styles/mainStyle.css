@@ -1,3 +1,13 @@
+.light {
+  background-color: rgb(216, 216, 216);
+  color: #272727;
+}
+
+.dark {
+  background-color: #1a1313;
+  color: #e5ecec;
+}
+
 .rngColor {
   width: 20px;
   height: 10vh;
@@ -5,207 +15,207 @@
 }
 
 .rngColor:nth-child(1) {
-  background-color: rgb(7, 57, 157);
+  background-color: rgb(213, 108, 206);
 }
 
 .rngColor:nth-child(2) {
-  background-color: rgb(218, 48, 34);
+  background-color: rgb(53, 200, 26);
 }
 
 .rngColor:nth-child(3) {
-  background-color: rgb(150, 101, 54);
+  background-color: rgb(160, 71, 40);
 }
 
 .rngColor:nth-child(4) {
-  background-color: rgb(246, 16, 42);
+  background-color: rgb(248, 211, 228);
 }
 
 .rngColor:nth-child(5) {
-  background-color: rgb(69, 138, 251);
+  background-color: rgb(109, 83, 228);
 }
 
 .rngColor:nth-child(6) {
-  background-color: rgb(2, 152, 139);
+  background-color: rgb(225, 228, 147);
 }
 
 .rngColor:nth-child(7) {
-  background-color: rgb(185, 255, 188);
+  background-color: rgb(248, 240, 226);
 }
 
 .rngColor:nth-child(8) {
-  background-color: rgb(50, 230, 2);
+  background-color: rgb(46, 196, 248);
 }
 
 .rngColor:nth-child(9) {
-  background-color: rgb(218, 23, 171);
+  background-color: rgb(54, 153, 221);
 }
 
 .rngColor:nth-child(10) {
-  background-color: rgb(238, 23, 137);
+  background-color: rgb(196, 176, 174);
 }
 
 .rngColor:nth-child(11) {
-  background-color: rgb(173, 122, 171);
+  background-color: rgb(208, 51, 229);
 }
 
 .rngColor:nth-child(12) {
-  background-color: rgb(237, 219, 125);
+  background-color: rgb(160, 49, 186);
 }
 
 .rngColor:nth-child(13) {
-  background-color: rgb(143, 34, 251);
+  background-color: rgb(165, 56, 57);
 }
 
 .rngColor:nth-child(14) {
-  background-color: rgb(2, 44, 93);
+  background-color: rgb(121, 37, 77);
 }
 
 .rngColor:nth-child(15) {
-  background-color: rgb(64, 179, 233);
+  background-color: rgb(190, 231, 50);
 }
 
 .rngColor:nth-child(16) {
-  background-color: rgb(12, 63, 148);
+  background-color: rgb(239, 13, 93);
 }
 
 .rngColor:nth-child(17) {
-  background-color: rgb(160, 104, 212);
+  background-color: rgb(183, 71, 109);
 }
 
 .rngColor:nth-child(18) {
-  background-color: rgb(76, 61, 143);
+  background-color: rgb(72, 90, 13);
 }
 
 .rngColor:nth-child(19) {
-  background-color: rgb(26, 101, 207);
+  background-color: rgb(4, 134, 131);
 }
 
 .rngColor:nth-child(20) {
-  background-color: rgb(49, 43, 99);
+  background-color: rgb(187, 51, 233);
 }
 
 .rngColor:nth-child(21) {
-  background-color: rgb(15, 215, 212);
+  background-color: rgb(56, 208, 107);
 }
 
 .rngColor:nth-child(22) {
-  background-color: rgb(115, 18, 136);
+  background-color: rgb(175, 82, 215);
 }
 
 .rngColor:nth-child(23) {
-  background-color: rgb(139, 77, 85);
+  background-color: rgb(109, 223, 53);
 }
 
 .rngColor:nth-child(24) {
-  background-color: rgb(162, 250, 136);
+  background-color: rgb(79, 190, 156);
 }
 
 .rngColor:nth-child(25) {
-  background-color: rgb(154, 198, 168);
+  background-color: rgb(225, 70, 87);
 }
 
 .rngColor:nth-child(26) {
-  background-color: rgb(152, 134, 59);
+  background-color: rgb(73, 38, 240);
 }
 
 .rngColor:nth-child(27) {
-  background-color: rgb(161, 238, 53);
+  background-color: rgb(13, 200, 37);
 }
 
 .rngColor:nth-child(28) {
-  background-color: rgb(251, 77, 56);
+  background-color: rgb(161, 124, 216);
 }
 
 .rngColor:nth-child(29) {
-  background-color: rgb(109, 210, 195);
+  background-color: rgb(138, 172, 212);
 }
 
 .rngColor:nth-child(30) {
-  background-color: rgb(102, 253, 26);
+  background-color: rgb(3, 96, 161);
 }
 
 .rngColor:nth-child(31) {
-  background-color: rgb(110, 47, 223);
+  background-color: rgb(42, 207, 147);
 }
 
 .rngColor:nth-child(32) {
-  background-color: rgb(130, 114, 243);
+  background-color: rgb(99, 239, 112);
 }
 
 .rngColor:nth-child(33) {
-  background-color: rgb(92, 211, 143);
+  background-color: rgb(172, 5, 200);
 }
 
 .rngColor:nth-child(34) {
-  background-color: rgb(162, 63, 158);
+  background-color: rgb(49, 192, 27);
 }
 
 .rngColor:nth-child(35) {
-  background-color: rgb(12, 84, 100);
+  background-color: rgb(52, 2, 40);
 }
 
 .rngColor:nth-child(36) {
-  background-color: rgb(137, 90, 73);
+  background-color: rgb(104, 121, 234);
 }
 
 .rngColor:nth-child(37) {
-  background-color: rgb(130, 62, 113);
+  background-color: rgb(35, 134, 81);
 }
 
 .rngColor:nth-child(38) {
-  background-color: rgb(61, 202, 140);
+  background-color: rgb(32, 136, 223);
 }
 
 .rngColor:nth-child(39) {
-  background-color: rgb(116, 118, 106);
+  background-color: rgb(186, 104, 53);
 }
 
 .rngColor:nth-child(40) {
-  background-color: rgb(82, 193, 243);
+  background-color: rgb(71, 133, 127);
 }
 
 .rngColor:nth-child(41) {
-  background-color: rgb(181, 148, 104);
+  background-color: rgb(63, 186, 61);
 }
 
 .rngColor:nth-child(42) {
-  background-color: rgb(42, 4, 130);
+  background-color: rgb(51, 75, 116);
 }
 
 .rngColor:nth-child(43) {
-  background-color: rgb(216, 156, 133);
+  background-color: rgb(208, 142, 209);
 }
 
 .rngColor:nth-child(44) {
-  background-color: rgb(168, 141, 58);
+  background-color: rgb(193, 11, 132);
 }
 
 .rngColor:nth-child(45) {
-  background-color: rgb(16, 101, 245);
+  background-color: rgb(65, 186, 24);
 }
 
 .rngColor:nth-child(46) {
-  background-color: rgb(57, 191, 102);
+  background-color: rgb(197, 234, 183);
 }
 
 .rngColor:nth-child(47) {
-  background-color: rgb(166, 85, 232);
+  background-color: rgb(122, 153, 237);
 }
 
 .rngColor:nth-child(48) {
-  background-color: rgb(176, 210, 96);
+  background-color: rgb(217, 180, 16);
 }
 
 .rngColor:nth-child(49) {
-  background-color: rgb(25, 2, 105);
+  background-color: rgb(98, 14, 67);
 }
 
 .rngColor:nth-child(50) {
-  background-color: rgb(181, 216, 154);
+  background-color: rgb(201, 175, 197);
 }
 
 .navbarLayout {
-  background-color: rgb(152, 80, 188);
+  background-color: #8937be;
 }
 .navbarLayout ul {
   display: grid;
@@ -218,4 +228,23 @@
   margin: 0;
   padding: 0;
   margin: 8px;
+}
+
+#container {
+  display: grid;
+}
+#container #themeBtn {
+  width: 60px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 8px;
+}
+#container #content {
+  text-align: center;
+}
+#container #content h2 {
+  font-size: 3rem;
 }/*# sourceMappingURL=mainStyle.css.map */

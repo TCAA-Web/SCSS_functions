@@ -1,0 +1,30 @@
+@import "./globals.scss";
+@import "./mixin.scss";
+
+@mixin theme($theme) {
+  background-color: getThemeColor($theme);
+  color: invertFunc(getThemeColor($theme));
+}
+
+@function invertFunc($color) {
+  $invertedColor: invert($color);
+  @return $invertedColor;
+}
+
+@function getThemeColor($theme) {
+  @if $theme == dark {
+    $color: $color_dark;
+    @return $color;
+  } @else if $theme == light {
+    $color: $color_light;
+    @return $color;
+  }
+}
+
+.light {
+  @include theme("light");
+}
+
+.dark {
+  @include theme("dark");
+}
