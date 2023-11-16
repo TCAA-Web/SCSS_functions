@@ -1,6 +1,6 @@
-@import "../../layout/grid.scss";
-@import "../../helpers/mixin/mixin.scss";
-@import "../../helpers/variables/variables.scss";
+@import "../layout/grid";
+@import "../helpers/mixin";
+@import "../helpers/variables";
 
 .navbarLayout {
   ul {
