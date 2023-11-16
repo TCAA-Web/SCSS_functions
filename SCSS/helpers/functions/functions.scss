@@ -1,10 +1,13 @@
-@import "./globals.scss";
-@import "./mixin.scss";
+@import "../variables/variables.scss";
 
-// Theme styling mixin. Takes "theme" which is a string and sets bg-color and color
-@mixin theme($theme) {
-  background-color: getThemeColor($theme);
-  color: invertFunc(getThemeColor($theme));
+// Function to get a random color
+// Creates three color values between 0-255 and returns an RGB value at the end
+@function getRandomColor() {
+  $red: random(255);
+  $green: random(255);
+  $blue: random(255);
+  $color: rgb($red, $green, $blue);
+  @return $color;
 }
 
 // Invert function that takes a color (RGB, HEX, Hsl and inverts that color) - works best for black/white colors
@@ -22,13 +25,4 @@
     $color: $color_light;
     @return $color;
   }
-}
-
-// The two theme classes to use
-.light {
-  @include theme("light");
-}
-
-.dark {
-  @include theme("dark");
 }

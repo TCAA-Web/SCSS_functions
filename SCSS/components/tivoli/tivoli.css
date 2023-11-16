@@ -1,0 +1,205 @@
+.rngColor {
+  width: 20px;
+  height: 10vh;
+  display: inline-block;
+}
+
+.rngColor:nth-child(1) {
+  background-color: rgb(175, 170, 95);
+}
+
+.rngColor:nth-child(2) {
+  background-color: rgb(96, 109, 93);
+}
+
+.rngColor:nth-child(3) {
+  background-color: rgb(140, 32, 131);
+}
+
+.rngColor:nth-child(4) {
+  background-color: rgb(221, 28, 92);
+}
+
+.rngColor:nth-child(5) {
+  background-color: rgb(238, 228, 159);
+}
+
+.rngColor:nth-child(6) {
+  background-color: rgb(55, 56, 210);
+}
+
+.rngColor:nth-child(7) {
+  background-color: rgb(121, 216, 44);
+}
+
+.rngColor:nth-child(8) {
+  background-color: rgb(214, 224, 132);
+}
+
+.rngColor:nth-child(9) {
+  background-color: rgb(115, 224, 114);
+}
+
+.rngColor:nth-child(10) {
+  background-color: rgb(191, 52, 30);
+}
+
+.rngColor:nth-child(11) {
+  background-color: rgb(89, 226, 154);
+}
+
+.rngColor:nth-child(12) {
+  background-color: rgb(180, 240, 142);
+}
+
+.rngColor:nth-child(13) {
+  background-color: rgb(159, 94, 155);
+}
+
+.rngColor:nth-child(14) {
+  background-color: rgb(85, 133, 63);
+}
+
+.rngColor:nth-child(15) {
+  background-color: rgb(6, 54, 84);
+}
+
+.rngColor:nth-child(16) {
+  background-color: rgb(111, 110, 197);
+}
+
+.rngColor:nth-child(17) {
+  background-color: rgb(91, 47, 114);
+}
+
+.rngColor:nth-child(18) {
+  background-color: rgb(82, 114, 71);
+}
+
+.rngColor:nth-child(19) {
+  background-color: rgb(66, 39, 21);
+}
+
+.rngColor:nth-child(20) {
+  background-color: rgb(190, 62, 143);
+}
+
+.rngColor:nth-child(21) {
+  background-color: rgb(99, 118, 181);
+}
+
+.rngColor:nth-child(22) {
+  background-color: rgb(75, 32, 210);
+}
+
+.rngColor:nth-child(23) {
+  background-color: rgb(226, 73, 37);
+}
+
+.rngColor:nth-child(24) {
+  background-color: rgb(18, 187, 131);
+}
+
+.rngColor:nth-child(25) {
+  background-color: rgb(139, 228, 98);
+}
+
+.rngColor:nth-child(26) {
+  background-color: rgb(250, 159, 182);
+}
+
+.rngColor:nth-child(27) {
+  background-color: rgb(244, 181, 133);
+}
+
+.rngColor:nth-child(28) {
+  background-color: rgb(120, 167, 33);
+}
+
+.rngColor:nth-child(29) {
+  background-color: rgb(127, 93, 186);
+}
+
+.rngColor:nth-child(30) {
+  background-color: rgb(209, 166, 124);
+}
+
+.rngColor:nth-child(31) {
+  background-color: rgb(32, 145, 25);
+}
+
+.rngColor:nth-child(32) {
+  background-color: rgb(109, 129, 46);
+}
+
+.rngColor:nth-child(33) {
+  background-color: rgb(178, 118, 32);
+}
+
+.rngColor:nth-child(34) {
+  background-color: rgb(68, 98, 150);
+}
+
+.rngColor:nth-child(35) {
+  background-color: rgb(7, 193, 117);
+}
+
+.rngColor:nth-child(36) {
+  background-color: rgb(185, 93, 37);
+}
+
+.rngColor:nth-child(37) {
+  background-color: rgb(201, 51, 222);
+}
+
+.rngColor:nth-child(38) {
+  background-color: rgb(250, 144, 52);
+}
+
+.rngColor:nth-child(39) {
+  background-color: rgb(56, 63, 214);
+}
+
+.rngColor:nth-child(40) {
+  background-color: rgb(94, 59, 16);
+}
+
+.rngColor:nth-child(41) {
+  background-color: rgb(60, 228, 117);
+}
+
+.rngColor:nth-child(42) {
+  background-color: rgb(160, 224, 150);
+}
+
+.rngColor:nth-child(43) {
+  background-color: rgb(148, 83, 175);
+}
+
+.rngColor:nth-child(44) {
+  background-color: rgb(6, 51, 25);
+}
+
+.rngColor:nth-child(45) {
+  background-color: rgb(185, 232, 175);
+}
+
+.rngColor:nth-child(46) {
+  background-color: rgb(177, 23, 229);
+}
+
+.rngColor:nth-child(47) {
+  background-color: rgb(208, 239, 233);
+}
+
+.rngColor:nth-child(48) {
+  background-color: rgb(191, 116, 206);
+}
+
+.rngColor:nth-child(49) {
+  background-color: rgb(90, 106, 9);
+}
+
+.rngColor:nth-child(50) {
+  background-color: rgb(215, 70, 29);
+}/*# sourceMappingURL=tivoli.css.map */

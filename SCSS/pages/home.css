@@ -1,0 +1,250 @@
+.navbarLayout {
+  background-color: #8937be;
+}
+.navbarLayout ul {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+.navbarLayout ul li {
+  margin: 0;
+  padding: 0;
+  margin: 8px;
+}
+
+.rngColor {
+  width: 20px;
+  height: 10vh;
+  display: inline-block;
+}
+
+.rngColor:nth-child(1) {
+  background-color: rgb(238, 60, 84);
+}
+
+.rngColor:nth-child(2) {
+  background-color: rgb(72, 34, 140);
+}
+
+.rngColor:nth-child(3) {
+  background-color: rgb(90, 156, 80);
+}
+
+.rngColor:nth-child(4) {
+  background-color: rgb(167, 217, 15);
+}
+
+.rngColor:nth-child(5) {
+  background-color: rgb(174, 37, 81);
+}
+
+.rngColor:nth-child(6) {
+  background-color: rgb(8, 166, 241);
+}
+
+.rngColor:nth-child(7) {
+  background-color: rgb(186, 176, 179);
+}
+
+.rngColor:nth-child(8) {
+  background-color: rgb(125, 77, 204);
+}
+
+.rngColor:nth-child(9) {
+  background-color: rgb(179, 64, 241);
+}
+
+.rngColor:nth-child(10) {
+  background-color: rgb(43, 144, 57);
+}
+
+.rngColor:nth-child(11) {
+  background-color: rgb(35, 209, 45);
+}
+
+.rngColor:nth-child(12) {
+  background-color: rgb(106, 75, 81);
+}
+
+.rngColor:nth-child(13) {
+  background-color: rgb(205, 106, 90);
+}
+
+.rngColor:nth-child(14) {
+  background-color: rgb(42, 172, 212);
+}
+
+.rngColor:nth-child(15) {
+  background-color: rgb(52, 104, 211);
+}
+
+.rngColor:nth-child(16) {
+  background-color: rgb(233, 111, 228);
+}
+
+.rngColor:nth-child(17) {
+  background-color: rgb(254, 85, 70);
+}
+
+.rngColor:nth-child(18) {
+  background-color: rgb(108, 8, 89);
+}
+
+.rngColor:nth-child(19) {
+  background-color: rgb(233, 116, 110);
+}
+
+.rngColor:nth-child(20) {
+  background-color: rgb(96, 38, 22);
+}
+
+.rngColor:nth-child(21) {
+  background-color: rgb(222, 165, 11);
+}
+
+.rngColor:nth-child(22) {
+  background-color: rgb(66, 140, 42);
+}
+
+.rngColor:nth-child(23) {
+  background-color: rgb(238, 171, 101);
+}
+
+.rngColor:nth-child(24) {
+  background-color: rgb(219, 32, 4);
+}
+
+.rngColor:nth-child(25) {
+  background-color: rgb(79, 61, 139);
+}
+
+.rngColor:nth-child(26) {
+  background-color: rgb(73, 220, 38);
+}
+
+.rngColor:nth-child(27) {
+  background-color: rgb(142, 88, 220);
+}
+
+.rngColor:nth-child(28) {
+  background-color: rgb(202, 46, 195);
+}
+
+.rngColor:nth-child(29) {
+  background-color: rgb(102, 117, 215);
+}
+
+.rngColor:nth-child(30) {
+  background-color: rgb(157, 69, 169);
+}
+
+.rngColor:nth-child(31) {
+  background-color: rgb(47, 244, 113);
+}
+
+.rngColor:nth-child(32) {
+  background-color: rgb(170, 241, 10);
+}
+
+.rngColor:nth-child(33) {
+  background-color: rgb(252, 207, 159);
+}
+
+.rngColor:nth-child(34) {
+  background-color: rgb(173, 123, 173);
+}
+
+.rngColor:nth-child(35) {
+  background-color: rgb(9, 93, 33);
+}
+
+.rngColor:nth-child(36) {
+  background-color: rgb(116, 202, 210);
+}
+
+.rngColor:nth-child(37) {
+  background-color: rgb(241, 33, 139);
+}
+
+.rngColor:nth-child(38) {
+  background-color: rgb(17, 108, 19);
+}
+
+.rngColor:nth-child(39) {
+  background-color: rgb(98, 58, 202);
+}
+
+.rngColor:nth-child(40) {
+  background-color: rgb(195, 129, 44);
+}
+
+.rngColor:nth-child(41) {
+  background-color: rgb(36, 115, 83);
+}
+
+.rngColor:nth-child(42) {
+  background-color: rgb(181, 71, 131);
+}
+
+.rngColor:nth-child(43) {
+  background-color: rgb(93, 50, 114);
+}
+
+.rngColor:nth-child(44) {
+  background-color: rgb(248, 163, 233);
+}
+
+.rngColor:nth-child(45) {
+  background-color: rgb(148, 225, 113);
+}
+
+.rngColor:nth-child(46) {
+  background-color: rgb(35, 37, 219);
+}
+
+.rngColor:nth-child(47) {
+  background-color: rgb(45, 2, 148);
+}
+
+.rngColor:nth-child(48) {
+  background-color: rgb(237, 144, 186);
+}
+
+.rngColor:nth-child(49) {
+  background-color: rgb(201, 225, 165);
+}
+
+.rngColor:nth-child(50) {
+  background-color: rgb(70, 12, 203);
+}
+
+.light {
+  background-color: rgb(244, 238, 238);
+  color: #0b1111;
+}
+
+.dark {
+  background-color: #242323;
+  color: #dbdcdc;
+}
+
+#container {
+  display: grid;
+}
+#container #themeBtn {
+  width: 60px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 8px;
+}
+#container #content {
+  text-align: center;
+}
+#container #content h2 {
+  font-size: 3rem;
+}/*# sourceMappingURL=home.css.map */

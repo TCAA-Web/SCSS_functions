@@ -1,0 +1,20 @@
+@import "../../layout/grid.scss";
+@import "../../helpers/mixin/mixin.scss";
+@import "../../helpers/variables/variables.scss";
+
+.navbarLayout {
+  ul {
+    @include gridLayout(8, 2px);
+    li {
+      @include reset();
+      margin: $margin-small;
+    }
+  }
+
+  // Mixing colors together
+  $color_red: #ef3a7d;
+  $color_blue: #2233ff;
+
+  $purple: mix($color_red, $color_blue, 50%);
+  background-color: $purple;
+}

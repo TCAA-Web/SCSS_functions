@@ -1,0 +1,10 @@
+@import "../helpers/mixin/mixin.scss";
+
+// The two theme classes to use
+.light {
+  @include theme("light");
+}
+
+.dark {
+  @include theme("dark");
+}

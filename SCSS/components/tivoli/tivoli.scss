@@ -1,0 +1,14 @@
+@import "../../helpers/functions/functions.scss";
+
+.rngColor {
+  width: 20px;
+  height: 10vh;
+  display: inline-block;
+}
+
+// For loop that iterates through all .rngColor classes
+@for $i from 1 through 50 {
+  .rngColor:nth-child(#{$i}) {
+    background-color: getRandomColor();
+  }
+}

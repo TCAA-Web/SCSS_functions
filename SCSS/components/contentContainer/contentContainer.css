@@ -1,0 +1,28 @@
+.light {
+  background-color: rgb(244, 238, 238);
+  color: #0b1111;
+}
+
+.dark {
+  background-color: #242323;
+  color: #dbdcdc;
+}
+
+#container {
+  display: grid;
+}
+#container #themeBtn {
+  width: 60px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 8px;
+}
+#container #content {
+  text-align: center;
+}
+#container #content h2 {
+  font-size: 3rem;
+}/*# sourceMappingURL=contentContainer.css.map */
