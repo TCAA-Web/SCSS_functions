@@ -1,13 +1,13 @@
-@import "../layout/grid";
-@import "../helpers/mixin";
-@import "../helpers/variables";
+@use "../layout/grid"; // use Grid system in this file
+@use "../helpers/mixins"; // use mixins in this file
+@use "../helpers/variables"; // use variables in this file
 
 .navbarLayout {
   ul {
-    @include gridLayout(8, 2px);
+    @include grid.gridLayout(8, 2px); // uses grid system - gridLayout
     li {
-      @include reset();
-      margin: $margin-small;
+      @include mixins.reset();
+      margin: variables.$margin-small; // uses variables margin small here
     }
   }
 
@@ -15,6 +15,10 @@
   $color_red: #ef3a7d;
   $color_blue: #2233ff;
 
-  $purple: mix($color_red, $color_blue, 50%);
+  $purple: mix(
+    $color_red,
+    $color_blue,
+    50%
+  ); // local variable created by mixing two colors
   background-color: $purple;
 }

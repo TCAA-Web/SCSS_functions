@@ -1,4 +1,4 @@
-@import "../helpers/functions";
+@use "../helpers/functions" as *; // doing @use <name> as * will import the file with no namespace.
 
 // Mixin to reset padding and margin
 @mixin reset() {

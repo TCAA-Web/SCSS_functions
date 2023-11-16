@@ -1,4 +1,4 @@
-@import "../helpers/variables";
+@use "../helpers/variables" as *; // doing @use <name> as * will import the file with no namespace.
 
 // Function to get a random color
 // Creates three color values between 0-255 and returns an RGB value at the end

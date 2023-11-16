@@ -1,1 +1,2 @@
-@import "../SCSS/pages/home.scss"; // all styling is created from this page file
+@use "./pages/home.scss"; // all styling is created from this page file
+@use "./theme/theme"; // use theme on all pages

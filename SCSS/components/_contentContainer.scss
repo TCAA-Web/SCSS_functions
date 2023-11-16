@@ -1,5 +1,4 @@
-@import "../helpers/functions";
-@import "../theme/theme";
+@use "../helpers/variables"; // Use variables in this file
 
 // Styles main section
 #container {
@@ -9,9 +8,9 @@
     height: 30px;
     border: none;
     outline: none;
-    border-radius: $margin-small;
+    border-radius: variables.$margin-small; // variable margin small
     cursor: pointer;
-    margin: $margin-small;
+    margin: variables.$margin-small; // variable margin small
   }
   #content {
     h2 {

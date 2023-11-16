@@ -1,10 +1,10 @@
-@import "../helpers/mixin";
+@use "../helpers/mixins";
 
 // The two theme classes to use
 .light {
-  @include theme("light");
+  @include mixins.theme("light");
 }
 
 .dark {
-  @include theme("dark");
+  @include mixins.theme("dark");
 }

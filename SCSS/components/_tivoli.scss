@@ -1,4 +1,4 @@
-@import "../helpers/functions";
+@use "../helpers/functions"; // uses functions in this file
 
 .rngColor {
   width: 20px;
@@ -9,6 +9,8 @@
 // For loop that iterates through all .rngColor classes
 @for $i from 1 through 50 {
   .rngColor:nth-child(#{$i}) {
-    background-color: getRandomColor();
+    background-color: functions.getRandomColor(
+
+    ); // uses functions getRandomColor here
   }
 }
