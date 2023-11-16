@@ -1,4 +1,6 @@
-//@import "../helpers/variables/variables.scss";
+// This is the styling of the page.
+// Creates a stylesheet depending on which components we include here
+
 @import "../components/navbar"; // styles navbar
 @import "../components/tivoli"; // Styles rngColor tivoli thingy
 @import "../components/contentContainer"; // Styles contentContainer

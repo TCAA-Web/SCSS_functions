@@ -1,10 +1,12 @@
 @import "../helpers/functions";
 
+// Mixin to reset padding and margin
 @mixin reset() {
   margin: 0;
   padding: 0;
 }
 
+// Mixin for setting background image - takes a variable $image and appends it to "root" path of url
 @mixin image($image) {
   background-image: url("../image/" + $image);
   background-position: center;
